@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace pooAppConsole
 {
-    class Emilio : Estudiante
+    class Emilio : Estudiante // Clase Emilio Hereda Atributos y Metodos de la clase padre Estudiante, Este es el Pilar de la Herencia
     {
         private string nombreCompleto { get; }
         public Emilio(string nombre, string apellido, string matricula, string sector)

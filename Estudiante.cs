@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace pooAppConsole
 {
-    class Estudiante
+    class Estudiante // definiendo clase con sus atributos, la misma es abstracta y Principal o Padre
     {
         protected string nombre { get; set; }
         protected string apellido { get; set; }

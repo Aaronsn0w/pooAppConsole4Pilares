@@ -63,9 +63,10 @@ namespace pooAppConsole
 
         static void Autor()
         {
-            Emilio emilio = new Emilio("Emilio", "Rosa", "20197562", "Isabelita");
-            Emilio Juan = new Emilio("Juan", "Rosa", "20187562", "Herrera");
-            Array misDatos = emilio.mostrarDatos();
+            // Ejemplificando El pilar de la encapsulacion y Abstraccion
+            Emilio emilio = new Emilio("Emilio", "Rosa", "20197562", "Isabelita"); // objeto con datos unicos de la clase Emilio
+            Emilio Juan = new Emilio("Juan", "Rosa", "20187562", "Herrera"); // objeto con datos unicos de la clase Emilio
+            Array misDatos = emilio.mostrarDatos(); // Interactuando con el objeto de forma abstracta
 
             Console.Clear();
             Console.WriteLine("Mis Datos Son:");
@@ -102,7 +103,7 @@ namespace pooAppConsole
         static void CalcularCuadrado()
         {
             int Lado = 0;
-            FiguraCuadrado Cuadrado = new FiguraCuadrado();
+            FiguraCuadrado Cuadrado = new FiguraCuadrado(); //aplicando polimorfismo con las figuras
             Console.Clear();
             Console.WriteLine("** Calcuar Area de un Cuadrado **\n");
             try
